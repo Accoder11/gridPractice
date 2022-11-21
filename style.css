@@ -12,10 +12,11 @@ html {
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
 }
+/*
 .grid div {
     font-size: 2rem;
     padding: 2rem;
-}
+}*/
 .box1 {
     background-color: red;
 }
