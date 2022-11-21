@@ -9,16 +9,27 @@
     /*grid-template-rows: 100px 1fr 100px;
     grid-template-columns: 20% 1fr 20%;*/
     grid-template-areas: "header header header" 
-    "nav article aside"
-    "footer footer footer";
+    "nav article aside" "footer footer footer"
+    ;
 }
-header, footer {
+header {
     background-color: green;
     /*grid-column: 1/ span 3;*/
+    grid-area: header;
 }
-nav, aside {
+nav {
     background-color: red;
+    grid-area: nav;
+}
+aside {
+    background-color: orange;
+    grid-area: aside;
 }
 article {
     background-color: pink;
+    grid-area: article;
+}
+footer {
+    background-color: blue;
+    grid-area: footer;
 }
