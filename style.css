@@ -128,7 +128,7 @@ html {
 */
 .gridForm {
     display: grid;
-    margin: auto;
+    margin: 5px auto;
     padding: 15px;
     max-width: 600px;
     background-color: orange;
@@ -144,7 +144,6 @@ h1 {
     background-color: red;
     margin-top: 3px;
     padding: 5px;
-
 }
 @media (min-width: 600px)
 .gridForm {
